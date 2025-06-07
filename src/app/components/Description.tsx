@@ -12,7 +12,6 @@ const projectButtons = [
 export default function Description() {
   return (
     <section style={styles.section}>
-      {/* Внутренний контейнер для центрирования и отступов */}
       <div style={styles.innerContainer}>
         <div style={styles.topRow}>
           {/* Левая часть с описанием */}
@@ -48,7 +47,7 @@ export default function Description() {
 const styles: { [key: string]: React.CSSProperties } = {
   section: {
     backgroundColor: "#232120",
-    width: "100vw",
+    width: "100%",
     margin: 0,
     padding: "100px 0", // только вертикальные отступы, по бокам будет внутренний контейнер
     borderRadius: 0,

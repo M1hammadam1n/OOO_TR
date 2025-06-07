@@ -44,6 +44,7 @@ const Navbar = () => {
 
 const styles: { [key: string]: React.CSSProperties } = {
   innerContainer: {
+    paddingTop: '20px',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',

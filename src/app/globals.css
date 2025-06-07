@@ -7,9 +7,8 @@ body {
   background-size: cover;
 }
 
-/* globals.css */
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px; /* отступы слева и справа */
+  padding: 0 20px; 
 }

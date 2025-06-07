@@ -33,15 +33,13 @@ export default function Header() {
 }
 
 const styles: { [key: string]: React.CSSProperties } = {
-  container: {
-    paddingTop: '100px',
-    paddingBottom: '20px',
-  },
+
   block: {
     backgroundColor: 'rgba(60, 57, 58, 0.5)',
     borderRadius: '30px',
     padding: '12px 20px',
     display: 'flex',
+    marginTop: '50px',
     alignItems: 'center',
     backdropFilter: 'blur(6px)',
   },
